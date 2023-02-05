@@ -12,6 +12,7 @@ import { InitializeModule } from './controllers/initialize/initialize.module';
 import { ProfileModule } from './controllers/profile/profile.module';
 import { TasksModule } from './tasks/tasks.module';
 import { MastersModule } from './controllers/masters/master.module';
+import { ServicesModule } from './controllers/services/services.module';
 
 @Module({
   imports: [
@@ -43,6 +44,7 @@ import { MastersModule } from './controllers/masters/master.module';
     ProfileModule,
     TasksModule,
     MastersModule,
+    ServicesModule,
   ],
   providers: [
     {
